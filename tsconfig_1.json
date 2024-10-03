@@ -1,7 +1,9 @@
 {
 	"compilerOptions": {
 		"allowJs": true,
-		"checkJs": true
+		"checkJs": true,
+		"noEmit": true,
+		"module": "nodenext"
 	},
 	"include": [
 		"./test.mjs"
